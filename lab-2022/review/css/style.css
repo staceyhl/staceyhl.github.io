@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+
+body {
+    background-color: rgba(255, 182, 193, 0.4);
+}
+
+h3 {
+    font-family: 'philosopher', sans-serif;
+}
+
+#note-taking {
+    list-style-type: "\263A";
+}
+
+img {
+    width: 15%;
+}
+
+blockquote {
+    float: right;
+    margin-right: 65%;
+    font-size: 0.8vw;
+}
+
+.links {
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: seagreen;
+}
+
+.every-odd:nth-child(odd) {
+    width: 4%;
+    background-color: lightpink;
+}
