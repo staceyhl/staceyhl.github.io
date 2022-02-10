@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
+
+body {
+    font-family: cormorant, serif;
+    background-color: #F6F1E5;
+}
+
+.desc {
+    width: 60%;
+    position: absolute;
+    margin: auto;
+    padding-left: 20%;
+}
+
+.text {
+    width: 40%;
+    position: absolute;
+    margin: auto;
+    padding-left: 30%;
+    padding-top: 7%;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 4.5em;
+
+    text-align: center;
+    
+    color: #B40D0D;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 2.9em;
+    font-style: italic;
+
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+
+    color: #B40D0D;
+    text-decoration-color: #023715;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.7em;
+
+    color: #023715;
+}
+
+p {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -2%;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #023715;
+    text-align: center;
+}
+
+.body-copy {
+    font-weight: 500;
+    font-size: 1.3em;
+
+    color: #202421;
+}
+
+a {
+    color: #023715;
+}
+
+.playlists {
+    margin-left: 6%;
+}
+
+ul {
+    list-style-type: "\273F"
+}
+
+span {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #B40D0D;
+}
+
+@media (max-width: 1022px) {
+    .text {
+        padding-top: 20%;
+    }
+}
+
+@media (max-width: 733px) {
+    .text {
+        padding-top: 36%;
+    }
+}
+
+@media (max-width: 527px) {
+    .text {
+        padding-top: 60%;
+    }
+}
