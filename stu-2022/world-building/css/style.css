@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,600;0,700;1,600&family=Martel:wght@400;600&display=swap');
+
+#nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-text {
+    font-family: martel, serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#back {
+    transform: skewX(15deg);
+}
+
+h1 {
+    font-family: cabin, sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+h2 {
+    font-family: cabin, sans-serif;
+    font-weight: 600;
+    font-size: 36px; 
+}
+
+p {
+    font-family: martel, serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+ul {
+    font-family: martel, serif;
+    font-weight: 600;
+    font-size: 16px;
+
+    width: 50%;
+}
+
+#intro {
+    margin: auto;
+    width: 50%;
+}
+
+#subh-1 {
+    margin-left: 53%;
+}
+
+#text-1 {
+    margin-left: 33%;
+}
+
+#text-2 {
+    margin-left: 14%;
+}
+
+#subh-3 {
+    margin-left: 65%;
+}
+
+#text-3 {
+    margin-left: 27%;
+}
