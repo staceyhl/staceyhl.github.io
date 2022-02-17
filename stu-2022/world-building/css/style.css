@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,600;0,700;1,600&family=Martel:wght@400;600&display=swap');
 
-#nav {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
 
-.nav-text {
-    font-family: martel, serif;
-    font-weight: 600;
-    font-size: 18px;
+body {
+    animation: disappear 45s infinite;
+}
+@keyframes disappear {
+    0% {
+        opacity: 100%;
+    }
+
+    89.9% {
+        opacity: 100%;
+    }
+
+    90% {
+        opacity: 0%;
+    }
+
+    97% {
+        opacity: 0%;
+    }
+
+    97.1% {
+        opacity: 100%;
+    }
 }
 
 #back {
@@ -47,7 +61,21 @@ ul {
 
 #intro {
     margin: auto;
-    width: 50%;
+
+    animation: change-width 5s infinite;
+}
+@keyframes change-width {
+    0% {
+        width: 15%
+    }
+
+    20% {
+        width: 50%
+    }
+
+    100% {
+        width: 50%
+    }
 }
 
 #subh-1 {
@@ -56,10 +84,86 @@ ul {
 
 #text-1 {
     margin-left: 33%;
+
+    animation: move-down 5s infinite; 
+}
+@keyframes move-down {
+    0% {
+        margin-top: 0;
+    }
+
+    15% {
+        margin-top: 300px;
+    }
+
+    25% {
+        margin-top: 300px;
+    }
+    26% {
+        margin-top: 0;
+    }
+
+    80% {
+        margin-left: 33%
+    }
+
+    81% {
+        margin-left: 75%
+    }
+
+    85% {
+        margin-left: 75%
+    }
+
+    86% {
+        margin-left: 33%
+    }
+
+    100% {
+        margin-top: 0;
+    }
+
 }
 
-#text-2 {
+#p2 {
     margin-left: 14%;
+}
+
+.text-2 {
+    font-size: 72px;
+
+    animation: grow 10s infinite;
+}
+@keyframes grow {
+    0% {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    64% {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    65% {
+        font-size: 72px;
+        margin-top: -200px;
+    }
+
+    69% {
+        font-size: 72px;
+        margin-top: -200px;
+    }
+
+    70% {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    100% {
+        font-size: 16px;
+        margin-top: 0;
+    }
 }
 
 #subh-3 {
@@ -68,4 +172,57 @@ ul {
 
 #text-3 {
     margin-left: 27%;
+
+    animation: flip 6s infinite;
+}
+@keyframes flip {
+    0% {
+        transform: rotate(0deg) skewX(0deg);
+        margin-left: 27%;
+    }
+
+    34.9% {
+        transform: rotate(0deg) skewX(0deg);
+        margin-left: 27%;
+    }
+
+    35% {
+        transform: rotate(180deg) skewX(-35deg);
+        margin-left: 40%;
+    }
+
+    40% {
+        transform: rotate(180deg) skewX(-35deg);
+        margin-left: 40%;
+    }
+    40.1% {
+        transform: rotate(0deg) skewX(0deg);
+        margin-left: 27%;
+    }
+}
+
+#q-mark {
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+
+    0% {
+        opacity: 100%;
+    }
+
+    59% {
+        opacity: 100%;
+    }
+
+    60% {
+        opacity: 0%;
+    }
+
+    99% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }
