@@ -1,0 +1,196 @@
+@font-face {
+    font-family: Gallient;
+    src: url(fonts/GallientRegular) format("truetype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+}
+
+/* NAV BAR */
+.nav-bar {
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+
+    margin: auto;
+    
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+#back {
+    transform: skewX(18deg);
+}
+
+#home {
+    text-decoration: underline;
+}
+
+p {
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.header {
+    font-family: inter, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-top: -35px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 11em;
+}
+
+#tsn {
+    font-weight: 600;
+    font-size: 4em;
+    letter-spacing: 0.05rem;
+
+    margin-top: -125px;
+}
+
+#banner {
+    width: 75%;
+}
+
+h2 {
+    font-family: gallient, serf;
+    font-weight: 400;
+    font-size: 6em;
+    text-align: center;
+}
+
+h3 {
+    font-family: gallient, serif;
+    font-weight: 400;
+    font-size: 4em;
+
+    text-align: center;
+    
+    margin-top: 35px;
+}
+
+.text-sec {
+    display: flex;
+    flex-direction: vertical;
+    justify-content: center;
+
+    width: 100%;
+    height: 1100px;
+}
+
+.text-sec div {
+    width: 75%;
+}
+
+/* CONCEPT */
+#concept-sec {
+    margin-top: 150px;
+    background-color: #858CFE;
+}
+
+#concept-sec div {
+    margin-top: 50px;
+}
+
+#concept-imgs-head {
+    color: #858CFE;
+}
+
+.concept-imgs-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    column-gap: 110px;
+    row-gap: 30px;
+}
+
+.concept-imgs-child img {
+    width: 30%;
+}
+
+/* PROCESS */
+#process-sec {
+    margin-top: 60px;
+    background-color: #F9C66D;
+}
+
+#process-sec div {
+    margin-top: 75px;
+}
+
+#process-head {
+    letter-spacing: 0.4rem;
+}
+
+ol {
+    font-family: source code pro, monospace;
+    font-weight: 400;
+    font-size: 1.5em;
+
+    width: 50%;
+    margin-left: 100px;
+}
+
+#process-imgs-head {
+    color: #F9C66D;
+}
+
+.process-imgs-child {
+    width: 50%;
+    margin: auto;
+}
+
+.process-imgs-child img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* REFLECTIONS */
+#reflec-sec {
+    margin-top: 115px;
+    background-color: #9CC68D;
+}
+
+#reflec-sec div {
+    margin-top: 150px;
+}
+
+#reflections-head {
+    letter-spacing: 0.7rem;
+}
+
+#final-head {
+    color: #9CC68D;
+}
+
+.final-child {
+    margin: auto;
+    width: 73%;
+}
+
+.final-child video {
+    width: 100%;
+}
