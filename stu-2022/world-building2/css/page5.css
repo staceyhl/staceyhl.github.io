@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed:wght@400&display=swap');
+
+body {
+    background-color: #CACACA;
+}
+
+h1 {
+    font-family: redressed;
+    font-size: 100em;
+    -webkit-text-stroke: 5px #FF714F;
+    -webkit-text-fill-color: transparent;
+    margin-top: -19%;
+    margin-left: 2%;
+    position: absolute;
+    z-index: -1;
+}
+
+p {
+    font-family: roboto, sans-serif;
+    font-size: 7em;
+    font-weight: 400;
+    line-height: 1.2em;
+
+    width: 85%;
+
+    margin-left: 12%;
+    margin-top: 4%;
+}
+
+.num {
+    color: white;
+}
+
+a {
+    color: white;
+}

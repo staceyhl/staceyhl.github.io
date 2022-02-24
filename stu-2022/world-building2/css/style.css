@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
+
+body {
+    text-align: justify;
+}
+
+a {
+    font-family: syncopate, sans-serif;
+    font-weight: 700;
+    font-size: 6em;
+    text-transform: uppercase;
+    line-height: 1.1;
+    word-spacing: 0.7em;
+
+    color: black;
+}
+
+#head {
+    animation: blink-1 30s infinite;
+}
+
+@keyframes blink-1 {
+    0% {
+        visibility: visible;
+    }
+
+    4% {
+        visibility: visible;
+    }
+
+    4.1% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+#throat {
+    animation: blink-2 30s infinite;
+}
+
+@keyframes blink-2 {
+    0% {
+        visibility: hidden;
+    }
+
+    5% {
+        visibility: hidden;
+    }
+
+    5.1% {
+        visibility: visible;
+    }
+
+    7% {
+        visibility: visible;
+    }
+
+    7.1% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+#arm {
+    animation: blink-3 30s infinite;
+}
+
+@keyframes blink-3 {
+    0% {
+        visibility: hidden;
+    }
+
+    17% {
+        visibility: hidden;
+    }
+
+    17.1% {
+        visibility: visible;
+    }
+
+    19% {
+        visibility: visible;
+    }
+
+    19.1% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+#finger {
+    animation: blink-4 30s infinite;
+}
+
+@keyframes blink-4 {
+    0% {
+        visibility: hidden;
+    }
+
+    23% {
+        visibility: hidden;
+    }
+
+    23.1% {
+        visibility: visible;
+    }
+
+    24.6% {
+        visibility: visible;
+    }
+
+    24.7% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+#grunts {
+    animation: blink-5 30s infinite;
+}
+
+@keyframes blink-5 {
+    0% {
+        visibility: hidden;
+    }
+
+    26% {
+        visibility: hidden;
+    }
+
+    26.1% {
+        visibility: visible;
+    }
+
+    26.8% {
+        visibility: visible;
+    }
+
+    26.9% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+#eye {
+    animation: blink-6 30s infinite;
+}
+
+@keyframes blink-6 {
+    0% {
+        visibility: hidden;
+    }
+
+    33% {
+        visibility: hidden;
+    }
+
+    33.1% {
+        visibility: visible;
+    }
+
+    35.5% {
+        visibility: visible;
+    }
+
+    35.6% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+#shoulder {
+    animation: blink-7 30s infinite;
+}
+
+@keyframes blink-7 {
+    0% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: hidden;
+    }
+
+    50.1% {
+        visibility: visible;
+    }
+
+    51.5% {
+        visibility: visible;
+    }
+
+    51.6% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+#repeat {
+    animation: blink-8 30s infinite;
+}
+
+@keyframes blink-8 {
+    0% {
+        visibility: hidden;
+    }
+
+    55% {
+        visibility: hidden;
+    }
+
+    55.1% {
+        visibility: visible;
+    }
+
+    63% {
+        visibility: visible;
+    }
+
+    63.1% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+#tongue {
+    animation: blink-9 30s infinite;
+}
+
+@keyframes blink-9 {
+    0% {
+        visibility: hidden;
+    }
+
+    70% {
+        visibility: hidden;
+    }
+
+    70.1% {
+        visibility: visible;
+    }
+
+    73% {
+        visibility: visible;
+    }
+
+    73.1% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+#ear {
+    animation: blink-10 30s infinite;
+}
+
+@keyframes blink-10 {
+    0% {
+        visibility: hidden;
+    }
+
+    78% {
+        visibility: hidden;
+    }
+
+    78.1% {
+        visibility: visible;
+    }
+
+    81% {
+        visibility: visible;
+    }
+
+    81.1% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+#back {
+    animation: blink-11 30s infinite;
+}
+
+@keyframes blink-11 {
+    0% {
+        visibility: hidden;
+    }
+
+    89% {
+        visibility: hidden;
+    }
+
+    89.1% {
+        visibility: visible;
+    }
+
+    89.6% {
+        visibility: visible;
+    }
+
+    89.7% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+#inhaling {
+    animation: blink-12 30s infinite;
+}
+
+@keyframes blink-12 {
+    0% {
+        visibility: hidden;
+    }
+
+    97% {
+        visibility: hidden;
+    }
+
+    97.1% {
+        visibility: visible;
+    }
+
+    99% {
+        visibility: visible;
+    }
+
+    99.1% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}

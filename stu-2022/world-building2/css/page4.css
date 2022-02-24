@@ -1,0 +1,106 @@
+div {
+    font-family: roboto, sans-serif;
+    font-size: 1.5em;
+
+    margin-top: 5%;
+}
+
+#one {
+    width: 35%;
+    animation: slide-in-1 6s forwards;
+}
+
+@keyframes slide-in-1 {
+    from {
+        margin-left: 70%;
+        filter: blur(20px);
+    }
+
+    to {
+        margin-left: 34%;
+        filter: blur(0px);
+    }
+}
+
+#two {
+    width: 35%;
+    margin-left: 50%;
+    animation: slide-in-2 4s forwards;
+    animation-delay: 5s;
+
+    filter: blur(20px);
+}
+
+@keyframes slide-in-2 {
+    from {
+        margin-left: 50%;
+        filter: blur(20px);
+    }
+
+    to {
+        margin-left: 34%;
+        filter: blur(0px);
+    }
+}
+
+#three {
+    width: 35%;
+    animation: slide-in-3 5s forwards;
+    animation-delay: 6s;
+
+    filter: blur(20px);
+}
+
+@keyframes slide-in-3 {
+    from {
+        margin-left: 0%;
+        filter: blur(20px);
+    }
+
+    to {
+        margin-left: 34%;
+        filter: blur(0px);
+    }
+}
+
+#four {
+    width: 35%;
+    margin-left: 65%;
+    animation: slide-in-4 7s forwards;
+    animation-delay: 9s;
+
+    filter: blur(20px);
+}
+
+@keyframes slide-in-4 {
+    from {
+        margin-left: 65%;
+        filter: blur(20px);
+    }
+
+    to {
+        margin-left: 34%;
+        filter: blur(0px);
+    }
+}
+
+button {
+    font-size: 0.8em;
+
+    margin-top: 2%;
+    margin-left: 49%;
+
+    animation: appear 5s forwards;
+    animation-delay: 16s;
+    visibility: hidden;
+}
+
+@keyframes appear {
+    from {
+        visibility: hidden;
+    }
+
+    to {
+        visibility: visible;
+    }
+}

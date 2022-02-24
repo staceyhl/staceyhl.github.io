@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
+
+div {
+    font-family: roboto, sans-serif;
+
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    font-family: syncopate, sans-serif;
+    font-weight: 700;
+    font-size: 7.8em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+button {
+    font-size: 1.2em;
+
+    position: relative;
+    left: 46%;
+    margin-top: 5%;
+
+    visibility: none;
+
+    animation: disappear 7s infinite;
+}
+
+@keyframes disappear {
+    0% {
+        visibility: visible;
+    }
+
+    39% {
+        visibility: visible;
+    }
+
+    40% {
+        visibility: none;
+    }
+
+    55% {
+        visibility: none;
+    }
+
+    56% {
+        visibility: visible;
+    }
+
+    100% {
+        visibility: visible;
+    }
+}
+
+#one {
+    animation: change-size 5s infinite;
+}
+
+@keyframes change-size {
+    0% {
+        font-size: 1em;
+    }
+
+    9% {
+        font-size: 1em;
+    }
+
+    10% {
+        font-size: 3em;
+    }
+
+    20% {
+        font-size: 3em;
+    }
+
+    21% {
+        font-size: 1em;
+    }
+
+    100% {
+        font-size: 1em;
+    }
+}
+
+#two {
+    animation: emphasize 3s infinite;
+}
+
+@keyframes emphasize {
+    0% {
+        text-transform: none;
+        color: black;
+    }
+
+    50% {
+        text-transform: none;
+        color: black;
+    }
+
+    51% {
+        text-transform: uppercase;
+        color: yellowgreen;
+    }
+
+    60% {
+        text-transform: uppercase;
+        color: yellowgreen;
+    }
+
+    61% {
+        text-transform: none;
+        color: black;
+    }
+}
+
+#three {
+    animation: move-down 5s infinite;
+}
+
+@keyframes move-down {
+    0% {
+        margin-top: 0;
+    }
+
+    15% {
+        margin-top: 300px;
+    }
+
+    25% {
+        margin-top: 300px;
+    }
+    26% {
+        margin-top: 0;
+    }
+
+    80% {
+        margin-left: 33%
+    }
+
+    81% {
+        margin-left: 75%
+    }
+
+    85% {
+        margin-left: 75%
+    }
+
+    86% {
+        margin-left: 33%
+    }
+
+    100% {
+        margin-top: 0;
+    }
+
+}

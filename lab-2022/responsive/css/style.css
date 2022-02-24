@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Lora&family=Noto+Serif+Display:wght@600&family=Overpass:ital,wght@0,400;0,500;1,500&family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&display=swap');
+
+@media screen and (max-width: 480px) {
+    body {
+        background: #472500;
+
+        margin: 8%;
+    }
+
+    h1 {
+        font-family: noto serif display, serif;
+        font-weight: 600;
+        font-size: 3.5em;
+
+        text-align: center;
+
+        color: #F7F3E9;
+        opacity: 30%;
+    }
+
+    h2 {
+        font-family: noto serif display, serif;
+        font-weight: 500;
+        font-size: 1em;
+
+        text-align: center;
+
+        color: #F7F3E9;
+        opacity: 50%;
+
+        margin-top: -6%;
+    }
+
+    div {
+        font-family: helvetica, sans-serif;
+        line-height: 1.3em;
+        color: #F7F3E9;
+
+        text-align: justify;
+
+        margin-top: 15%;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    body {
+        background-color: #F1E5F3;
+        margin: 5%;
+    }
+
+    h1 {
+        font-family:'Courier New', Courier, monospace;
+        color: #8F5C96;
+        font-size: 4em;
+        padding-top: 5%;
+    }
+
+    h2 {
+        color: #B495B9;
+        font-size: 2em;
+        margin-top: -4%;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    div {
+        color: #3D2141;
+        text-align: justify;
+        font-size: 1.4em;
+        margin-top: 10%;
+        font-family: helvetica;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    body {
+        margin: 10%;
+        background: royalblue;
+    }
+
+    h1 {
+        font-family: josefin sans, sans-serif;
+        font-weight: 600;
+        font-size: 7em;
+        letter-spacing: -0.5rem; 
+        text-align: center;
+
+        color: #F08B47;
+    }
+
+    h2 {
+        font-family: ivypresto-display, serif;
+        font-weight: 400;
+        font-size: 1.8em;
+
+        text-align: center;
+
+        color: #62A7BC;
+    }
+
+    div {
+        margin-top: 15%;
+        font-family: overpass;
+        font-weight: 400;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    body {
+        margin: 6%;
+        background: #BAC8AD;
+    }
+
+    h1 {
+        font-family: roboto condensed, sans-serif;
+        font-weight: 700;
+        font-size: 8em;
+        text-align: right;
+        letter-spacing: normal;
+
+        color: #F9FCF3;
+    }
+
+    h2 {
+        font-family: roboto condensed, sans-serif;
+        font-weight: 400;
+        font-size: 1.9em;
+        text-align: right; 
+
+        margin-top: -4%;
+
+        color: #ED7C9E;
+    }
+
+    div {
+        font-family: garamond;
+        font-size: 1.3em;
+        text-align: left;
+
+        color: #2A3222;
+
+        margin-top: 8%;
+
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+        margin: 0;
+    
+        background: #F6F5F9;
+    }
+    
+    h1 {
+        font-family: ivypresto-display, serif;
+        font-weight: 600;
+        font-size: 12em;
+        color: black;
+    
+        text-align: left;
+        text-decoration: underline;
+        text-decoration-color: #E9AF07;
+    
+        margin-left: 2%;
+        margin-top: -3%;
+    }
+    
+    h2 {
+        font-family: overpass;
+        font-weight: 400;
+        font-size: 2.5em;
+
+        text-align: left;
+    
+        margin-left: 2%;
+        margin-top: -2%;
+
+        color: #8F7CED;
+    }
+    
+    em {
+        color: #E9AF07;
+    }
+    
+    div {
+        font-family: lora, serif;
+        font-weight: 400;
+        font-size: 1.5em;
+
+        line-height: 1.5em;
+    
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+}
