@@ -16,7 +16,7 @@ a {
 }
 
 #head {
-    animation: blink-1 30s infinite;
+    animation: blink-1 45s infinite;
 }
 
 @keyframes blink-1 {
@@ -38,7 +38,7 @@ a {
 }
 
 #throat {
-    animation: blink-2 30s infinite;
+    animation: blink-2 45s infinite;
 }
 
 @keyframes blink-2 {
@@ -68,7 +68,7 @@ a {
 }
 
 #arm {
-    animation: blink-3 30s infinite;
+    animation: blink-3 45s infinite;
 }
 
 @keyframes blink-3 {
@@ -98,7 +98,7 @@ a {
 }
 
 #finger {
-    animation: blink-4 30s infinite;
+    animation: blink-4 45s infinite;
 }
 
 @keyframes blink-4 {
@@ -128,7 +128,7 @@ a {
 }
 
 #grunts {
-    animation: blink-5 30s infinite;
+    animation: blink-5 45s infinite;
 }
 
 @keyframes blink-5 {
@@ -158,7 +158,7 @@ a {
 }
 
 #eye {
-    animation: blink-6 30s infinite;
+    animation: blink-6 45s infinite;
 }
 
 @keyframes blink-6 {
@@ -188,7 +188,7 @@ a {
 }
 
 #shoulder {
-    animation: blink-7 30s infinite;
+    animation: blink-7 45s infinite;
 }
 
 @keyframes blink-7 {
@@ -218,7 +218,7 @@ a {
 }
 
 #repeat {
-    animation: blink-8 30s infinite;
+    animation: blink-8 45s infinite;
 }
 
 @keyframes blink-8 {
@@ -248,7 +248,7 @@ a {
 }
 
 #tongue {
-    animation: blink-9 30s infinite;
+    animation: blink-9 45s infinite;
 }
 
 @keyframes blink-9 {
@@ -278,7 +278,7 @@ a {
 }
 
 #ear {
-    animation: blink-10 30s infinite;
+    animation: blink-10 45s infinite;
 }
 
 @keyframes blink-10 {
@@ -308,7 +308,7 @@ a {
 }
 
 #back {
-    animation: blink-11 30s infinite;
+    animation: blink-11 45s infinite;
 }
 
 @keyframes blink-11 {
@@ -338,7 +338,7 @@ a {
 }
 
 #inhaling {
-    animation: blink-12 30s infinite;
+    animation: blink-12 45s infinite;
 }
 
 @keyframes blink-12 {

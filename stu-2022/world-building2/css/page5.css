@@ -1,36 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Redressed:wght@400&display=swap');
-
-body {
-    background-color: #CACACA;
-}
+@import url('https://fonts.googleapis.com/css2?family=Redressed:wght@400&family=Syncopate:wght@700&display=swap');
 
 h1 {
-    font-family: redressed;
-    font-size: 100em;
-    -webkit-text-stroke: 5px #FF714F;
-    -webkit-text-fill-color: transparent;
-    margin-top: -19%;
-    margin-left: 2%;
-    position: absolute;
-    z-index: -1;
+    font-family: syncopate, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 7.8em;
+    text-align: center;
+}
+
+div {
+    width: 85%;
+    margin: auto;
 }
 
 p {
     font-family: roboto, sans-serif;
-    font-size: 7em;
+    font-size: 4em;
     font-weight: 400;
     line-height: 1.2em;
+}
 
-    width: 85%;
+#one {
+    color: #00EAFF;
+}
 
-    margin-left: 12%;
-    margin-top: 4%;
+#two {
+    color: #FF0000;
+}
+
+#three {
+    color: #FF00FB;
+}
+
+#four {
+    color: #FF8F00;
 }
 
 .num {
-    color: white;
+    font-size: 1em;
+}
+
+.num:hover {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.excl {
+    color: #D1F200; 
+}
+
+.excl:hover {
+    font-size: 4em;
+    font-weight: bold;
 }
 
 a {
-    color: white;
+    color: #D1F200;
 }

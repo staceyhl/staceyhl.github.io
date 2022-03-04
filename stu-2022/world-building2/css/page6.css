@@ -25,10 +25,28 @@ div {
     background-color: black;
 }
 
-p {
+.cure {
     color: white;
-    opacity: 25%;
 
     text-align: center;
     padding-top: 20%;
+
+    position: absolute;
+}
+
+.cure:hover {
+    visibility: hidden;
+}
+
+.start {
+    color: white;
+
+    text-align: center;
+    padding-top: 20%;
+
+    visibility: hidden;
+}
+
+.start:hover {
+    visibility: visible;
 }
