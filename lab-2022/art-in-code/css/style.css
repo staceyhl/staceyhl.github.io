@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'climate';
+    src: url('../fonts/ClimateCrisis-2050.otf') format('opentype');
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+}
+
+img {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 7%;
+    position: absolute;
+    display: block;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: -1%;
+    
+    height: 1090px;
+
+    xbackground-color: cadetblue;
+}
+
+h1 {
+    font-family: 'neue-haas-unica';
+    font-weight: 400;
+    font-size: 7em;
+    color: #450606;
+
+    text-transform: uppercase;
+
+    mix-blend-mode: color-burn;
+}
+
+h1:hover {
+    font-family: 'climate', sans-serif;
+    font-size: 8em;
+    color: white;
+    opacity: 70%;
+
+    mix-blend-mode: normal;
+}
+
+section {
+    display: flex;
+    column-gap: 70px;
+
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+
+    font-family: neue-haas-unica, sans-serif;
+
+    xbackground-color:darkcyan;
+}
+
+.info {
+    flex-basis: 30%;
+
+    border-right: #C61818 2px solid;
+
+    xbackground-color: palegoldenrod;
+}
+
+h2 {
+    font-size: 6em;
+    font-weight: 400;
+    line-height: 1em;
+
+    text-transform: uppercase;
+
+    margin-top: auto;
+}
+
+.info-text {
+    font-size: 1.2em;
+}
+
+#date {
+    transform: rotate(20deg);
+
+    margin-top: 28%;
+}
+
+#piano {
+    transform: rotate(-10deg);
+
+    margin-top: -20%;
+}
+
+#wool {
+    transform: rotate(5deg);
+
+    margin-top: 12%;
+}
+
+#meditation {
+    transform: rotate(40deg);
+
+    margin-top: 40%;
+    margin-left: -10%;
+}
+
+#sound {
+    transform: rotate(15deg);
+
+    margin-top: -12%;
+    margin-left: 25%;
+}
+
+#absence {
+    text-align: right;
+
+    margin-top: -10%;
+    margin-right: 5%;
+}
+
+.desc {
+    flex-basis: 70%;
+
+    xbackground-color: pink;
+}
+
+.desc p {
+    font-size: 1.5em;
+}
+
+.quote {
+    margin-left: 5%;
+}
+
+article {
+    font-size: 1.2em;
+    width: 80%;
+    color: #C61818;
+}
+
+.desc a {
+    font-size: 1.5em;
+    float: right;
+
+    color: black;
+}
+
+.desc a:hover {
+    color: #C61818;
+}
+
+@media screen and (max-width: 950px) {
+    h1:hover {
+        color: #C61818;
+    }
+
+    #in {
+        margin-top: 70%;
+    }
+
+    section {
+        display: block;
+    }
+
+    .info {
+        border-right: none;
+        border-bottom: #C61818 2px dashed;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .quote {
+        text-align: justify;
+
+        margin-left: 0;
+    }
+}

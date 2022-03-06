@@ -1,0 +1,22 @@
+body {
+    cursor: none;
+
+    overflow: hidden;
+}
+
+.chairs {
+    width: 90%;
+    margin-left: 4%;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.gif {
+    width: 40%;
+    margin-left: 29%;
+    margin-top: 10%;
+
+    position: absolute;
+    z-index: -1;
+}
