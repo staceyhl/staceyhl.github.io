@@ -59,7 +59,7 @@ button {
 }
 
 #one {
-    animation: change-size 5s infinite;
+    animation: change-size 7s infinite;
 }
 
 @keyframes change-size {

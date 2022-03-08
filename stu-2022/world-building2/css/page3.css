@@ -16,7 +16,8 @@ h1 {
 }
 
 .desc {
-    font-size: 5em;
+    font-size: 7.2em;
+    line-height: 0.75em;
     opacity: 25%;
 }
 
@@ -31,7 +32,16 @@ a {
     text-decoration: none;  
 }
 
-a:hover {
+a .more {
+    display: none;
+}
+
+a:hover .ocd {
+    display: none;
+}
+
+a:hover .more {
+    display: block;
     color: black;
 }
 

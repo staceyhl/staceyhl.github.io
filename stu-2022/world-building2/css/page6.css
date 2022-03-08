@@ -17,36 +17,42 @@ h1 {
 
 div {
     font-family: roboto, sans-serif;
-    font-size: 7em;
+    font-size: 6.7em;
+    text-align: center;
 
     margin-top: 25%;
     height: 1100px;
+    width: 100%;
 
     background-color: black;
 }
 
-.cure {
+a {
     color: white;
 
-    text-align: center;
-    padding-top: 20%;
+
+    margin-top: 20%;
 
     position: absolute;
 }
 
-.cure:hover {
-    visibility: hidden;
+a .cure {
+    margin-left: -100%;
 }
 
-.start {
-    color: white;
+a .start {
+    display: none;
+}
 
+a:hover .cure {
+    display: none;
+}
+
+a:hover .start {
+    display: inline;
+    margin-left: -100%;
+}
+
+section {
     text-align: center;
-    padding-top: 20%;
-
-    visibility: hidden;
-}
-
-.start:hover {
-    visibility: visible;
 }

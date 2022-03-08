@@ -10,13 +10,13 @@ h1 {
 }
 
 div {
-    width: 85%;
+    width: 50%;
     margin: auto;
 }
 
 p {
     font-family: roboto, sans-serif;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 400;
     line-height: 1.2em;
 }
