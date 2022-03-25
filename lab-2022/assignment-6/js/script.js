@@ -4,7 +4,7 @@ let container = document.querySelector("#container");
 cheeses.forEach(function (cheese) {
     cheese.style.left = (90 * Math.random()) + '%';
 
-    cheese.style.top = (90 * Math.random()) + '%';
+    cheese.style.top = (80 * Math.random()) + '%';
 });
 
 container.addEventListener('click', function (event) {
