@@ -1,0 +1,64 @@
+@font-face {
+    font-family: vollkorn;
+    src: url(fonts/Vollkorn-Medium) format ("truetype");
+}
+
+body {
+    margin: 0;
+    background-color: #A3A1CA;
+    cursor: url("../img/mouse.png"), auto;
+}
+
+#container {
+    width: 100vh;
+    height: 100vh;
+}
+
+h1 {
+    font-family: vollkorn, serif;
+    font-size: 5em;
+
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: absolute;
+    z-index: 2;
+}
+h2 {
+    visibility: hidden;
+
+    font-family: vollkorn, serif;
+    font-size: 5em;
+
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: absolute;
+    z-index: 2;
+}
+
+.cheese {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    cursor: url('../img/mouse-eat.png'), auto;
+}
+
+@media screen and (max-width: 660px) {
+    body {
+        background: linear-gradient(blue, white, red);
+    }
+
+    h1 {
+        visibility: hidden;
+    }
+
+    h2 {
+        visibility: visible;
+        color: white;
+    }
+}

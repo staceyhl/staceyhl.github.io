@@ -1,0 +1,16 @@
+.color1 {
+    background-color: #4D5943;
+    color: #FCAE5B;
+}
+
+.color2 {
+    background-color: #FCAE5B;
+    color: #4D5943;
+}
+
+h1 {
+    font-family: helvetica;
+    font-size: 6em;
+    margin-left: 33%;
+    margin-top: 23%;
+}
