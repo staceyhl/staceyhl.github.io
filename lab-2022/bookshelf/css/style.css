@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background-color: #B7C0DE;
+}
+
+h1 {
+    font-family: helvetica;
+    text-transform: uppercase;
+    font-size: 7em;
+    text-align: center;
+
+    color: white;
+}
