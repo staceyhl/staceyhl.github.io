@@ -1,0 +1,63 @@
+@font-face {
+    font-family: redaction-bold;
+    src: url(/fonts/redaction/Redaction_2_001/OTF/Redaction-Bold.otf);
+
+    font-family: redaction-italic;
+    src: url(/fonts/redaction/Redaction_2_001/OTF/Redaction-Italic.otf);
+
+    font-family: redaction-regular;
+    src: url(/fonts/redaction/Redaction_2_001/OTF/Redaction-Regular.otf);
+}
+
+body {
+    margin: 0;
+}
+
+.desc {
+    background-color: #F7E1DD;
+
+    width: 100vw;
+    height: 1086px;
+    margin-top: -1.6%;
+}
+
+p {
+    color: #E08973;
+    font-family: redaction-italic;
+    font-size: 2em;
+
+    width: 20vw;
+    margin-left: 1%;
+    padding-top: 1%;
+}
+
+.title {
+    width: 100vw;
+    height: 1100px;
+
+    background-color: #151313;
+}
+
+a {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 20em;
+    color: #FAF9F3;
+    text-decoration: none;
+
+    text-align: center;
+
+    top: 30%;
+    left: 4%;
+
+    z-index: 1;
+    position: relative;
+}
+
+img {
+    position: fixed;
+    width: 25vw;
+    margin-left: 37vw;
+    margin-top: 7vw;
+}

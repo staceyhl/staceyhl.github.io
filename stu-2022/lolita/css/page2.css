@@ -1,0 +1,59 @@
+@font-face {
+    font-family: redaction-bold;
+    src: url(/fonts/redaction/Redaction_2_001/OTF/Redaction-Bold.otf);
+
+    font-family: redaction-italic;
+    src: url(/fonts/redaction/Redaction_2_001/OTF/Redaction-Italic.otf);
+
+    font-family: redaction-regular;
+    src: url(/fonts/redaction/Redaction_2_001/OTF/Redaction-Regular.otf);
+}
+
+body {
+    margin: 0;
+    background-color: #FAF9F3; 
+}
+
+aside {
+    width: 20vw;
+    xbackground-color: paleturquoise;
+
+    position: absolute;
+    margin-left: 1%;
+}
+
+h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 8em;
+    line-height: 0em;
+    text-justify: justify;
+
+    color: #151313;
+}
+
+h2 {
+    font-family: redaction-italic;
+    font-weight: 400;
+    font-size: 8em;
+    line-height: 2em;
+    text-transform: none;
+    font-weight: lighter;
+
+    margin-left: 25%;
+}
+
+#ta {
+    margin-left: 68%;
+}
+
+.container {
+    position: fixed;
+    bottom: 0;
+    
+    font-family: redaction-italic;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 0.4;
+}

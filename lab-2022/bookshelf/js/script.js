@@ -6,11 +6,16 @@ console.log(Airtable);
 
 // use the airtable library to get a variable that represents one of our bases
 // YOU WILL NEED TO REPLACE THIS API KEY AND BASE WITH YOUR UNIQUE INFO, FOUND IN AIRTABLE
-var base = new Airtable({ apiKey: 'key6k4rfgDqpQN86h' }).base('app3ZLje9z5a5NyJw');
+var base = new Airtable({ apiKey: 'keyzYC5ngav1YfJ6l' }).base('app3ZLje9z5a5NyJw');
 
 //get the "books" table from the base, select ALL the records
 // specify the functions that will receive the data
-base("books").select({}).eachPage(gotPageOfBooks, gotAllBooks);
+//base("books").select({}).eachPage(gotPageOfBooks, gotAllBooks);
+
+//ADD VIEW to get a select "view" "books" from table from airtable database
+base("books").select({
+  view: "theory/philosophy"
+}).eachPage(gotPageOfBooks, gotAllBooks);
 
 // an empty array to hold our book data
 const books = [];
@@ -75,7 +80,7 @@ function showBook(book, div) {
     book.fields.description;
   bookDetail.getElementsByClassName("more")[0].href = book.fields.more;
   bookDetail.getElementsByClassName("cover-image")[0].src =
-    book.fields.cover_image[0].url;
+    book.fields.cover[0].url;
 
   // remove the .active class from any book spines that have it...
   const shelf = document.getElementById("shelf");

@@ -56,7 +56,7 @@ h2 {
 
 
 .shelf .book-spine.active {
-  background: lime;
+  background: #DF7575;
 }
 
 .shelf .book-spine:hover {
@@ -70,9 +70,9 @@ book detail is CSS that pertains to the details that will show when we click on 
 }
 
 .book-detail .figure {
-  width: 200px;
+  width: 400px;
   flex: none;
-  margin-right: 30px;
+  margin-left: 50px;
 }
 
 .book-detail .cover-image {
@@ -83,18 +83,22 @@ book detail is CSS that pertains to the details that will show when we click on 
 }
 
 .book-detail .info {
-  max-width: 600px;
+  max-width: 700px;
+  margin-left: 40px;
 }
 
 .book-detail .title {
-  font-size: 24px;
+  font-family: freightbigcmp-pro, serif;
+  font-size: 64px;
   text-transform: uppercase;
   margin-top: 0;
 }
 
 .book-detail .description {
+  font-family: helvetica;
   margin-top: 0.5em;
-  font-size: 36px;
+  margin-left: 20px;
+  font-size: 28px;
   line-height: 1.5;
 }
 
