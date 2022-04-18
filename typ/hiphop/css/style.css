@@ -1,11 +1,13 @@
 body {
     margin: 0;
+    background-color: black;
 }
 
 div {
     display: flex;
     flex-wrap: wrap;
-    row-gap: -10px;
+    row-gap: 0px;
+    margin: 0;
 }
 
 #str8 {
