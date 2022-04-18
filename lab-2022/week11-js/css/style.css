@@ -1,0 +1,25 @@
+html {
+    background-color: ghostwhite;
+    box-sizing: border-box;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-size: 125%;
+    margin: 1em;
+  }
+  
+  h4 {
+    display: inline;
+    padding-left: 1em;
+  }
+  
+  
+  a:visited {
+    color: magenta;
+  }
+  
+  a:hover {
+    color: lime;
+  }
+  
+  a:active {
+    color: lightgreen;
+  } 

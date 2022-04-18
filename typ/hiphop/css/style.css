@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: -10px;
+}
+
+#str8 {
+    width: 50vw;
+}
+
+#false {
+    width: 50vw;
+}
+
+#kinjaz {
+    width: 50vw;
+}
+
+#playground {
+    width: 50vw;
+}
