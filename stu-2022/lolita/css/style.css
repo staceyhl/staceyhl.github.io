@@ -55,9 +55,26 @@ a {
     position: relative;
 }
 
-img {
+/*img {
     position: fixed;
     width: 25vw;
     margin-left: 37vw;
     margin-top: 7vw;
+}*/
+
+.content {
+    height: 37vw;
+    width: 25vw;
+    overflow: hidden;
+    position: fixed;
+    margin-left: 37vw;
+    margin-top: 7vw;
+}
+.content .images {
+    height: 100%;
+    width: 100%;
+}
+.images img {
+    height: 100%;
+    width: 100%;
 }

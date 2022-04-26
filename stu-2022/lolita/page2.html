@@ -3,7 +3,6 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/page2.css">
-        <script src="js/script.js" type="text/javascript" defer></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,16 +15,28 @@
 
     <body>
         <aside>
-            <h1>lo</h1>
-            <h2>lee</h2>
-            <h1 id="ta">ta</h1>
+            <div class="header">
+                <h1>lo</h1>
+                <h2>lee</h2>
+                <h1 id="ta">ta</h1>
+            </div>
 
-            <div class="container">
-                <p>color</p>
-                <p>subject</p>
-                <p>age</p>
-                <p>marketability</p>
+            <img id="cover"></img>
+
+            <div class="sorting">
+                <button id="sortLowHighColor">Color</button>
+                <br><br>
+                <button id="sortLowHighSubject" >Subject</button>
+                <br><br>
+                <button id="sortLowHighAge" >Age</button>
+                <br><br>
+                <button id="sortLowHighMarketability" >Marketability</button>
+                <br><br>
             </div>
         </aside>
+
+        <div id="container"></div>
+        <script src="lib/airtable.browser.js"></script>
+        <script src="js/script.js" type="text/javascript" defer></script>
     </body>
 </html>
