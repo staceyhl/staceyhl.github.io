@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+
+    width: 60vw;
+    margin-top: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#cig {
+    width: 60vw;
+}
+
+#flame {
+    width: 17%;
+    display: none;
+    z-index: 2;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 70%;
+}
+
+#title {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
