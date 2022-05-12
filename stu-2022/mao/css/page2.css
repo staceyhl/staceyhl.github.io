@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+body {
+    background: #0F0F0F;
+    font-family: 'fira code';
+    color: #00FF1A;
+}
+
+div {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.8em;
+}
+
+a {
+    font-size: 1.8em;
+
+    color: #00FF1A;
+}
+
+a:visited {
+    color: #00FF1A;
+}
